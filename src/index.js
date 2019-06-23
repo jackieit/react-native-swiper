@@ -11,11 +11,12 @@ import {
   ScrollView,
   Dimensions,
   TouchableOpacity,
-  ViewPagerAndroid,
+  //ViewPagerAndroid,
   Platform,
   ActivityIndicator
 } from 'react-native'
-
+import ViewPager  from '@react-native-community/viewpager';
+const  ViewPagerAndroid = ViewPager;
 /**
  * Default styles
  * @type {StyleSheetPropType}
